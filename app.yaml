@@ -14,4 +14,12 @@
 # [START app_yaml]
 runtime: nodejs
 env: flex
+
+handlers:
+- url: /(.*\.(gif|png|jpeg|jpg|css|js|ico))$
+  static_files: dist/\1
+  upload: dist/(.*)
+- url: /(.*)
+  static_files: dist/index.html
+  upload: dist/index.html
 # [END app_yaml]
