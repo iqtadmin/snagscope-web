@@ -2,14 +2,6 @@
   "name": "www-snagscope",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "npm start",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
